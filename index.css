@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Inter:wght@700&family=Lemon&family=Permanent+Marker&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(countdown.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown {
+  font-size: 2em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  border-radius: 20px;
+  height: 500px;
+  font-size: 60px;
+  color: yellow;
+  font-weight: bolder;
+  background-image: url(countdown.avif);
+  box-shadow:
+  3.6px 3.3px 1.4px rgba(0, 0, 0, 0.027),
+  8px 7.4px 3.1px rgba(0, 0, 0, 0.039),
+  13.7px 12.6px 5.3px rgba(0, 0, 0, 0.048),
+  21.1px 19.4px 8.2px rgba(0, 0, 0, 0.056),
+  31.3px 28.7px 12.2px rgba(0, 0, 0, 0.064),
+  46px 42.2px 17.9px rgba(0, 0, 0, 0.072),
+  69px 63.3px 26.8px rgba(0, 0, 0, 0.081),
+  109.9px 100.8px 42.7px rgba(0, 0, 0, 0.093),
+  206px 189px 80px rgba(0, 0, 0, 0.12)
+;
+}
